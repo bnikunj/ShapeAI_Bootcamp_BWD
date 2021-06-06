@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: #eee;
+}
+.header {
+  background-color: rgba(233, 55, 55, 0.897);
+  color: black;
+  padding: 10px;
+  height: 40px;
+  font-size: 2em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.note {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 15px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
